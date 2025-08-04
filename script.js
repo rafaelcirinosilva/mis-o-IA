@@ -17,5 +17,11 @@
             "alternativa 1 ",
             "alternativa 2",
         ]
-    } //fecha objeto pergunta
- ]// fecha lista
+    }
+    {
+      enunciado: "Pergunta 2",
+        alternativas: [
+            "alternativa 1 ",
+            "alternativa 2",
+        ]
+    }
