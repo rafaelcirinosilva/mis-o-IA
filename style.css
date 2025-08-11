@@ -3,7 +3,7 @@
     --cor-principal:rgb(10, 5, 92);
     --cor-secundaria:rgb(5, 31, 117);
     --cor-destaque:rgb(5, 38, 182);
-    --cor-texto:rgb(15, 128, 204);
+    --cor-texto:rgb(236, 240, 243);
 }
 body{
     background-color: var(--cor-fundo);
