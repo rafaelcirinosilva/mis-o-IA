@@ -22,5 +22,6 @@ const perguntas = [
             "alternativa 1 ",
             "alternativa 2",
         ]
-]
     }
+]
+   
