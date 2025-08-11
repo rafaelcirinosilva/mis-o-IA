@@ -1,50 +1,34 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPrincipal = document.querySelector('.caixa-principal');
 
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaPerguntas = document.querySelector('.caixa-perguntas');
 
-const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaAlternativas = document.querySelector('.caixa-alternativas');
 
-const caixaResultado = document.querySelector(".caixa-resultados");
+const caixaResultado = document.querySelector('.caixa-resultado');
 
-const textoResultado = document.querySelector(".texto-resultado");
+const textoResultado = document.querySelector('.texto-Resultado');
 
 const lista = [];
 
 const perguntas = [
-    {
-        enunciado: "Pergunta 1",
-        alternativas: [
-            "alternativa 1 ",
-            "alternativa 2"
-        ]
-    },
-    {
-        enunciado: "Pergunta 2",
-        alternativas: [
-            "alternativa 1 ",
-            "alternativa 2",
-        ]
-    }
-     {
-        enunciado: "Pergunta 3",
-        alternativas: [
-            "alternativa 1 ",
-            "alternativa 2",
-        ]
-    }
-     {
-        enunciado: "Pergunta 4",
-        alternativas: [
-            "alternativa 1 ",
-            "alternativa 2",
-        ]
-    }
-     {
-        enunciado: "Pergunta 5",
-        alternativas: [
-            "alternativa 1 ",
-            "alternativa 2",
-        ]
-    }
-]
-   
+{
+enunciado: "Pergunta 1",
+alternativas: ["Alternativa 1","Alternativa 2"]
+},
+{
+enunciado: "Pergunta 2",
+alternativas: ["Alternativa 1","Alternativa 2" ]
+},
+{
+enunciado: "Pergunta 3",
+alternativas: ["Alternativa 1","Alternativa 2" ]
+},
+{
+enunciado: "Pergunta 4",
+alternativas: ["Alternativa 1","Alternativa 2"]
+},
+{
+enunciado: "Pergunta 5",
+alternativas: ["Alternativa 1","Alternativa 2"]
+}
+];
