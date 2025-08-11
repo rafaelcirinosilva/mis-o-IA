@@ -59,9 +59,6 @@ let perguntaAtual;
     for(const alternativas of perguntaAtual.alternativas){
         const botaoAlternativa=document.createElement("button");
         botaoAlternativa.textContent = alternativas.texto;
-        botaoAlternativa.addEventListener("click, function");{
-            atual++;
-        }
         caixaAlternativas.appendChild(botaoAlternativa);
     }
  }
