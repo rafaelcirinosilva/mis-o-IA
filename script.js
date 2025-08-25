@@ -52,7 +52,7 @@ let historiaFinal;
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa=document.createElement("button");
         botaoAlternativa.textContent = alternativas.texto;
-        botao|Altura
+        botao|alternativa.addEventLis
         caixaAlternativas.appendChild(botaoAlternativa);
     }
  }
