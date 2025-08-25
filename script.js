@@ -62,4 +62,8 @@ let perguntaAtual;
         caixaAlternativas.appendChild(botaoAlternativa);
     }
  }
+ function respostaSelecionada
+
+
+
 mostraPergunta();
