@@ -47,14 +47,12 @@ let perguntaAtual;
 let historiaFinal;
 
  function mostraPergunta(){
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent=perguntaAtual.enunciado;
  }
  function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa=document.createElement("button");
         botaoAlternativa.textContent = alternativas.texto;
-        botao
+        botao|Altura
         caixaAlternativas.appendChild(botaoAlternativa);
     }
  }
